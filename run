@@ -1,0 +1,3 @@
+docker stack rm htn-demo
+sleep 1
+docker stack deploy -c docker-compose.yml htn-demo

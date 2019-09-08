@@ -1,0 +1,14 @@
+version: '3'
+services:
+  backend:
+    image: uwjeffan/htn-demo-backend:latest
+    ports:
+      - 8080:8080
+    deploy:
+      replicas: 3
+      restart_policy:
+        condition: on-failure
+  frontend:
+    image: uwjeffan/htn-demo-frontend:latest
+    ports:
+      - 3000:3000

@@ -1,0 +1,5 @@
+docker build -t uwjeffan/htn-demo-backend backend
+docker build -t uwjeffan/htn-demo-frontend frontend
+docker push uwjeffan/htn-demo-backend:latest
+docker push uwjeffan/htn-demo-frontend:latest
+
