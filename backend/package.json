@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/jeff-an/infra-demo-htn-2019#readme",
   "dependencies": {
-    "ip": "^1.1.5"
+    "ip": "^1.1.9"
   }
 }
